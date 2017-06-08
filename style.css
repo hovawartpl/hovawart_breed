@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body
 {
 	font-family: 'Amatic SC', cursive;
@@ -22,17 +26,44 @@ nav
 	margin-right: auto;
 }
 
-ol
+ol, ul
 {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	line-height: 180%;
 	padding:0;
 	margin:0;
-	list-style-type:none;
+	height:40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #834087;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 21px;
 }
 
 .menu_option_logo
 {
-	margin-top: opx;
-	width: 180px;
+	margin-top: 0px;
+	width: 200px;
 	padding: 10px;
 	font-size: 30px;
 	display: inline-block;
@@ -52,7 +83,7 @@ ol
 	display: inline-block;
 }
 
-a.tilelink
+a
 {
 	color:#ffffff;
 	text-decoration: none;
@@ -66,24 +97,32 @@ a.tilelink
 	padding: 0;
 }
 
-.dropdown_menu {
+.dropdown_menu > li
+{
 	float: left;
+	margin-top: 0px;
+	text-align: center;
+	padding: 2px;
+	font-size: 20px;
+	color: white;
+	background: rgba(131, 64, 135, .6);
+	width: 100%;
 }
 
 .menu_img .overlay
 {
 	position: absolute;
-	bottom: 0;
+	top: 220px;
 	left: 0;
 	width: 100%;
-	height: 20%;
+	height: 30px;
 	display: none;
 }
 
 .menu_img:hover .overlay
 {
 	display: block;
-	background: rgba(0, 0, 0, .6);
+	background: rgba(131, 64, 135, .6);
 }
 
 .text_overlay

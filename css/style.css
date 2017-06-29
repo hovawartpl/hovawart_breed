@@ -8,7 +8,9 @@ body
 {
 	font-family: 'Amatic SC', cursive;
 	background-color: #4a8b44;
-	overflow: hidden;
+	font-size: 21px;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 ol, ul
@@ -121,12 +123,16 @@ a
 	transform: translateX(0);
 }	
 
-#logo
-{
+#logo {
 	font-weight: 700;
 	font-size: 36px;
+	color: white;	
+}
+
+#min_logo {
+	font-weight: 700;
+	font-size: 26px;
 	color: white;
-	
 }
 
 .tilelink
@@ -157,7 +163,7 @@ a
 }
 
 .article_dark_blue {
-	
+	background-color: #424787;
 }
 
 .article_menu {
@@ -188,6 +194,13 @@ blockquote {
 	font-style: italic;
 	text-align: center;
 	border-radius: 5px;
+}
+
+.quote_author {
+	display: block;
+	text-align: right;
+	padding: 5px;
+	font-size: 20px;
 }
 
 .overlay_container {
@@ -222,24 +235,44 @@ blockquote {
 	
 }
 
+.contact {
+	text-align: center;
+}
+
+address {
+	font-size: 26px;
+	font-weight: 700;
+}
 
 .footer_nav_bar
 {
-	height: 70px;
 	width: 100%;
 	margin-bottom: 0px;
 	background-color: #4a8b44;
+	text-align: center;
 }
 
-.col-1 ( width: 12.5%; )
-.col-2 ( width: 25%; )
-.col-3 ( width: 37.5%; )
-.col-4 ( width: 50%; )
-.col-5 ( width: 62.5%; )
-.col-6 ( width: 75%; )
-.col-7 ( width: 87.5%; )
-.col-8 ( width: 100%; )
-
-[class*="col-"] {
-	float: left;
+#signature {
+	font-size: 16px;
+	color: #ffffff;
+	margin-top: 5px;
 }
+
+.back_to_menu {
+	position: fixed;
+	left: 5px;
+	bottom: 10px;
+}
+
+/* .col-1 ( width: 12.5%; ) */
+/* .col-2 ( width: 25%; ) */
+/* .col-3 ( width: 37.5%; ) */
+/* .col-4 ( width: 50%; ) */
+/* .col-5 ( width: 62.5%; ) */
+/* .col-6 ( width: 75%; ) */
+/* .col-7 ( width: 87.5%; ) */
+/* .col-8 ( width: 100%; ) */
+
+/* [class*="col-"] { */
+	/* float: left; */
+/* } */

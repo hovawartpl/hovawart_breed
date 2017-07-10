@@ -212,6 +212,10 @@ address {
 	bottom: 10px;
 }
 
+/* details pages */
+
+/* about us page */
+
 /* navigation for details pages */
 
 .nav_details_page {
@@ -276,31 +280,82 @@ address {
 
 /* main content details */
 
-.main_content_details {
-	margin-top: 64px;
-}
-
 .article_details_title {
 	padding-top: 64px;
-	float: left;
-	text-align: right;
 }
-
-.article_details_title:first-child {
-	vertical-align: middle;
-}
-
 .photo_about_circle {
 	max-width: 120px;
 	height: auto;
 	border-radius: 50%;
-	display: block;
+	display: inline-block;
 	float: left;
+}
+
+.article_details_title > h2 {
+	display: inline-block;
+	float: left;
+	padding: 65px 5px 5px 5px;
+}
+
+.article_in_memory_title {
+	text-align: center;
+	padding: 65px 5px 5px 5px;
+}
+
+div.img_in_memory {
+	width: 45%;
+	min-height: 200px;
+	display: inline-block;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	background-color: #446d87;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+.photo_about_circle_memory {
+	max-width: 120px;
+	height: auto;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.description_img_in_memory {
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 10px;
+}
+
+/* puppies page */
+
+.article_news_puppies_title {
+	display: block;
+	text-align: center;
+}
+
+div.img_in_love {
+	width: 45%;
+	min-height: 200px;
+	display: inline-block;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	background-color: #424787;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
 }
 
 
 
+/* more styles */
 
+.bold {
+	font-weight: bold;
+	font-size: 22px;
+}
 
 /* .dropdown_menu { */
 	/* display: flex; */

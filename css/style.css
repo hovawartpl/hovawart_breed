@@ -104,10 +104,12 @@ a {
 
 .article_light_blue {
 	background-color: #446d87;
+	color: #dedede;
 }
 
 .article_dark_blue {
 	background-color: #424787;
+	color: #dedede;
 }
 
 .article_menu {
@@ -210,6 +212,7 @@ address {
 	position: fixed;
 	left: 5px;
 	bottom: 10px;
+	margin-bottom: 10px;
 }
 
 /* details pages */
@@ -278,6 +281,11 @@ address {
 	
 }
 
+.icon-home {
+	padding: 2px;
+	text-align: center;
+}
+
 /* main content details */
 
 .article_details_title {
@@ -329,6 +337,11 @@ div.img_in_memory {
 	padding: 10px 10px;
 }
 
+.photo_at_the_end {
+	max-width: 400px;
+	hight: auto;
+}
+
 /* puppies page */
 
 .article_news_puppies_title {
@@ -348,13 +361,34 @@ div.img_in_love {
 	margin-bottom: 25px;
 }
 
+.list_for_archive {
+	margin: 10px auto 10px auto;
+}
 
+.list_for_archive > dt {
+	color: white;
+	background-color: #633e83;
+	font-weight: bold;
+	padding: 8px;
+	text-align: left;
+}
+
+.list_for_archive > dd {
+	background-color: #834087;
+	padding: 8px;
+}
+
+/* training, shows - nothing */
 
 /* more styles */
 
 .bold {
 	font-weight: bold;
 	font-size: 22px;
+}
+
+.white_text {
+	color: #ffffff;
 }
 
 /* .dropdown_menu { */

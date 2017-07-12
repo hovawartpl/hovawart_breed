@@ -510,8 +510,7 @@ div.img_in_love {
 /* articles */
 
 	.article_title {
-		display: inline-block;
-		float: left;
+		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		color: #ffffff;
@@ -520,8 +519,53 @@ div.img_in_love {
 		padding: 15px;
 	}
 	
-	.article_menu {
-		padding: 15px;
+	.polaroid_menu {
+		display: flex;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.img_polaroid_4 {
+		display: block;
+		max-width: 180px;
+		margin: 5px auto 5px auto;
+	}
+	
+	div.polaroid_4 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 190px;
+		background-color: #4a8b44;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px 5px 25px 5px;
+		
+	}
+
+	div.polaroid_container {
+		width: 100%;
+		text-align: center;
+		padding: 10px 20px;
+	}
+	
+	.polaroid_4:hover, .polaroid_2:hover  {
+		background: rgba(131, 64, 135, .6);
+	}
+	
+	.img_polaroid_2 {
+		display: block;
+		max-width: 360px;
+		margin: 5px auto 5px auto;
+	}
+	
+	div.polaroid_2 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 370px;
+		background-color: #4a8b44;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px 5px 25px 5px;
+		
 	}
 
 }

@@ -548,7 +548,7 @@ div.img_in_love {
 		padding: 10px 20px;
 	}
 	
-	.polaroid_4:hover, .polaroid_2:hover  {
+	.polaroid_4:hover, .polaroid_2:hover, .polaroid_3:hover  {
 		background: rgba(131, 64, 135, .6);
 	}
 	
@@ -565,7 +565,22 @@ div.img_in_love {
 		background-color: #4a8b44;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 5px 25px 5px;
-		
+	}
+	
+	.img_polaroid_3 {
+		display: block;
+		max-width: 250px;
+		height: auto;
+		margin: 5px auto 5px auto;
+	}
+	
+	div.polaroid_3 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 255px;
+		background-color: #4a8b44;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px 5px 25px 5px;
 	}
 
 }

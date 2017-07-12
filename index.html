@@ -20,26 +20,28 @@
 
 <body>
 
-	<div class="container">
+	<div class="page_container">
 	
 	<header class="header_main_page">
+		<div class="content_container">
 		<h1 class="logo_name">LAS KSIĘŻNICZEK</h1>
 
 		<nav class="nav_main_page">	
+		
 			<ol>
 				<li class="nav_menu_option"><a href="#about_us">O NAS</a>
 					<ul class="nav_dropdown_menu">
 						<li>
-							<a href="#">IULA SUN des Leus Altiers</a>
+							<a href="html/about_us_details.html#iula_about">IULA SUN des Leus Altiers</a>
 						</li>
 						<li>
-							<a href="#">ZIRI Las Księżniczek</a>
+							<a href="html/about_us_details.html#ziri_about">ZIRI Las Księżniczek</a>
 						</li>
 						<li>
-							<a href="#">SAMOSIA Las Księżniczek</a>
+							<a href="html/about_us_details.html#samosia_about">SAMOSIA Las Księżniczek</a>
 						</li>
 						<li>
-							<a href="#">na zawsze w pamięci</a>
+							<a href="html/about_us_details.html#in_memory_about">na zawsze w pamięci</a>
 						</li>
 					</ul>
 				</li>
@@ -86,40 +88,56 @@
 				</li>
 			</ol>
 		</nav>
+		</div>
+		
+		<blockquote class="quote no_mobile clear">"Hovawart jest taki jak wyobrażałam sobie psa
+			<br>-wierny, oddany, chętny do pracy, ani flegmatyczny, ani zbyt impulsywny." 
+			<br> <span class="quote_author">(Dorota Mucha)</span>
+		</blockquote>
+		
 	</header>
 	
 	<main>
-		<aside>
+		<aside class="no_desktop">
 			<blockquote>"Hovawart jest taki jak wyobrażałam sobie psa-wierny, oddany, chętny do pracy, ani flegmatyczny, ani zbyt impulsywny." 
 			<br> <span class="quote_author">(Dorota Mucha)</span>
 			</blockquote>
 		</aside>
 		
 		<article id="about_us">
-			<div class="overlay_container">
+			<div class="overlay_container no_desktop">
 				<img src="img/o_nas_mobile.jpg" alt="breeder with puppy" class="img_mobile">
 				<div class="overlay">
 					<div class="title_over_picture title">O NAS:</div> 
 				</div>
 			</div>
-			<div class="article_content article_light_blue">
-			<p>Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
-			<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
 			
-			<ol class="article_menu">
-				<li>
-					<a href="html/about_us_details.html#iula_about">IULA</a>
-				</li>
-				<li>
-					<a href="html/about_us_details.html#ziri_about">ZIRI</a>
-				</li>
-				<li>
-					<a href="html/about_us_details.html#samosia_about">SAMOSIA</a>
-				</li>
-				<li>
-					<a href="html/about_us_details.html#in_memory_about">na zawsze w pamięci</a>
-				</li>
-			</ol>
+			<div class="article_content article_light_blue">
+			
+				<img src="img/o_nas_duze.jpg" alt="three happy hovawarts gold, gold/black and black" class="img_big no_mobile">
+			
+				<div class="content_container">
+	
+					<h2 class="article_title no_mobile">O NAS:</h2>
+					
+						<ol class="article_menu">
+							<li>
+								<a href="html/about_us_details.html#iula_about">IULA</a>
+							</li>
+							<li>
+								<a href="html/about_us_details.html#ziri_about">ZIRI</a>
+							</li>
+							<li>
+								<a href="html/about_us_details.html#samosia_about">SAMOSIA</a>
+							</li>
+							<li>
+								<a href="html/about_us_details.html#in_memory_about">na zawsze w pamięci</a>
+							</li>
+						</ol>
+			
+				<p class="clear">Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
+				<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
+				</div>
 			</div>
 		</article>
 	</main>
@@ -132,9 +150,6 @@
 			</div>
 		</div>
 		<div class="article_content article_dark_blue">
-			<p>Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
-			<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
-			
 			<ol class="article_menu">
 				<li>
 					<a href="html/puppies_details.html#news_puppies">AKTULANOŚI</a>
@@ -143,6 +158,9 @@
 					<a href="html/puppies_details.html#archives_puppies">ARCHIWUM</a>
 				</li>
 			</ol>
+			
+			<p>Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
+			<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
 		</div>
 	</article>
 	
@@ -154,9 +172,6 @@
 			</div>
 		</div>
 		<div class="article_content article_light_blue">
-			<p>Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
-			<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
-			
 			<ol class="article_menu">
 				<li>
 					<a href="html/training_details.html#iula_training">IULA</a>
@@ -168,6 +183,9 @@
 					<a href="html/training_details.html#archive_training">ARCHIWUM</a>
 				</li>
 			</ol>
+			
+			<p>Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
+			<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
 		</div>
 	</article>
 	
@@ -179,9 +197,6 @@
 			</div>
 		</div>
 		<div class="article_content article_dark_blue">
-			<p>Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
-			<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
-			
 			<ol class="article_menu">
 				<li>
 					<a href="html/shows_details.html#iula_shows">IULA</a>
@@ -193,6 +208,9 @@
 					<a href="html/shows_details.html#archive_shows">ARCHIWUM</a>
 				</li>
 			</ol>
+			
+			<p>Cupcake ipsum dolor. Sit amet gummi bears caramels. Soufflé brownie apple pie gummies chocolate cake candy canes donut toffee brownie. Donut chocolate danish bear claw. Jelly lemon drops wafer bear claw powder gingerbread cake. Jelly jujubes danish toffee cookie oat cake. Toffee chocolate bar candy canes. Lemon drops bonbon candy canes. </p>
+			<p>Pastry gingerbread topping croissant pastry chocolate bar donut. Cake ice cream lollipop jelly-o sesame snaps. Cake cotton candy sesame snaps apple pie sweet roll lemon drops lemon drops jelly beans icing. Gummies lemon drops cotton candy lollipop gingerbread soufflé chupa chups sweet roll. Marshmallow danish lemon drops liquorice muffin.</p>
 		</div>
 	</article>
 	
@@ -241,7 +259,7 @@
 		</a>	
 		
 		<div id="signature">
-			2017 "Las Księżniczek" &copy;
+			2017 "Las Księżniczek"&copy; &nbsp;·&nbsp; Site by <a href="http://martamucha.pl/">Marta Mucha-Balcerek</a>
 		</div>
 	</footer>
 	</div>

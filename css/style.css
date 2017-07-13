@@ -299,6 +299,7 @@ address {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .photo_about_circle {
 	max-width: 120px;
 	height: auto;
@@ -402,6 +403,7 @@ div.img_in_love {
 	color: #ffffff;
 }
 
+
 /* for desktop: */
 
 @media only screen and (min-width: 800px) {
@@ -409,13 +411,18 @@ div.img_in_love {
 		display: none;
 	}
 	
-/* main part */
+/* main part for desktop */
 	
 	.header_main_page {
+		display: block;
 		background-image: none;
-		background-color: #4a8b44;
+		background: rgba(74, 139, 68, 0.6);
+		width: 100%;
+		min-height: 80px;
 		margin-top: 0px;
 		padding-top: 0px;
+		position: fixed;
+		top: 0;
 	}
 	
 	.content_container {
@@ -431,17 +438,20 @@ div.img_in_love {
 	}
 	
 	.logo_name {
-		background-color: #4a8b44;
+		background: inherit;
 		color: #ffffff;
 		display: inline-block;
-		width: 30%;
+		width: 28%;
 		float: left;
 	}
 	
 	.nav_main_page {
 		display: inline-block;
 		float: right;
+		text-align: right;
 		margin-top: 20px;
+		width: 70%;
+		height: 100%;
 	}
 	
 	li.nav_menu_option {
@@ -452,29 +462,33 @@ div.img_in_love {
 	}
 	
 	.nav_dropdown_menu {
-		display: none;
-		justify-content: space-between;
+		padding: 0;
+		margin: 0;
 		position: absolute;
-		top: 38px;
+		top: 42px;
 		left: 0px;
-		padding-left: 0;
+		text-align: center;
+		min-width: 80px;
+		
 	}
 	.nav_dropdown_menu > li {
-		margin: 5px;
+		float: none;
+		display: block;
+		position: relative;
+		margin: 0 0 5px 0;
 		padding: 5px;
 		font-size: 20px;
 		color: #ffffff;
 		border-radius: 5px;
-		display: flex;
-		flex-basis: 100%;
-		min-height: 30px;
+		height: auto;
 		width: 100%;
 		background: rgba(131, 64, 135, .6);
-		z-index: 1;
+	
 	}
 	
 	.nav_menu_option:hover .nav_dropdown_menu {
-		display: inline-block;
+		display: block;
+		z-index: 1;
 	}
 	
 	.nav_dropdown_menu > li:hover, .article_menu > li:hover {
@@ -486,16 +500,26 @@ div.img_in_love {
 		font-weight: bold;
 	}
 	
-	.quote {
-		display: block;
-		max-width: 800px;
-		color: #ffffff;
+	.aside_quote_under_header {
 		background-color: #4a8b44;
-		font-size: 24px;
-		text-align: right;
-		padding: 25px 5px 15px 5px;
+		min-height: 400px;
+		width: 750px;
+		margin-top: 100px;
 		margin-left: auto;
 		margin-right: auto;
+		
+	}
+	
+	blockquote {
+		background-color: #4a8b44;
+		color: #ffffff;
+		text-align: right;
+	}
+
+	.quote_author {
+		margin-left: auto;
+		margin-right: auto;
+		width: 750px;
 	}
 	
 	.img_big {
@@ -504,11 +528,16 @@ div.img_in_love {
 		margin-right: auto;
 		max-width: 800px;
 		height: auto;
-		margin-top: -290px ;
+		margin-top: -290px;
 	}
 	
-/* articles */
+	
+/* articles on index for desktop*/
 
+	.article_content {
+		padding-top: 80px;
+	}
+	
 	.article_title {
 		display: block;
 		margin-left: auto;
@@ -582,7 +611,34 @@ div.img_in_love {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 5px 25px 5px;
 	}
+	
+/* details pages for desktop */
+	
+	.article_details_title {
+		padding-top: 80px;
+		width: 800px;
+	}
 
+	.photo_about_big {
+		display: block;
+		float: left;
+		padding-top: 80px;
+		margin-left: 0px;
+		margin-right: 10px;
+		max-width: 400px;
+		height: auto;
+		margin-top: -280px;
+		margin-bottom: 10px;
+	}
+
+    .article_details_title > h2 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: right;
+		padding: 80px 5px 5px 5px;
+	}
+	
 }
 
 

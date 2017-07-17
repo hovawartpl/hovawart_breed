@@ -573,7 +573,7 @@ div.img_in_love {
 		padding: 10px 20px;
 	}
 	
-	.polaroid_4:hover, .polaroid_2:hover, .polaroid_3:hover  {
+	.polaroid_4:hover, .polaroid_2:hover, .polaroid_3:hover, .polaroid_double:hover, .polaroid_tripple:hover {
 		background: rgba(131, 64, 135, .6);
 	}
 	
@@ -635,7 +635,47 @@ div.img_in_love {
 		padding: 80px 5px 5px 5px;
 	}
 	
+	.article_news_puppies_title {
+		padding-bottom: 140px;
+	}
 	
+	.img_in_love_desktop {
+		max-width: 380px;
+		height: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.img_question_mark {
+		height: 320px;
+	}
+	
+	.gallery_puppies_archive {
+		display: block;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	div.polaroid_double {
+		width: 510px;
+		background-color: #4a8b44;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px 5px 25px 5px;
+	}
+	
+	.polaroid_double > .img_polaroid_3, .polaroid_tripple > .img_polaroid_3 {
+		display: inline;
+		float: left;
+		margin: 5px 2.5px 5px 2.5px;
+	}
+
+	div.polaroid_tripple {
+		width: 765px;
+		background-color: #4a8b44;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px 5px 25px 5px;
+	}
 	
 }
 

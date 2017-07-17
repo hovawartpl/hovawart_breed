@@ -677,6 +677,16 @@ div.img_in_love {
 		margin: 15px 5px 25px 5px;
 	}
 	
+	.puppies_archive_litter_name {
+		font-weight: bold;
+		font-size: 26px;
+		color: #ededed;
+	}
+	
+	.article_in_memory_title {
+		padding-top: 80px;
+	}
+	
 }
 
 

@@ -25,17 +25,17 @@ a {
 	text-decoration: none;
 }
 
-/* for mobile phones: */
+/* ----------------------------------------  for mobile phones: ---------------------------------------- */
 
 .no_mobile {
 	display: none;
 }
 
-/* main header navigation */
+/* navigation on main page */
 
 .header_main_page {
 	background-color: #4a8b44;
-	background: url(../img/o_nas_duze.jpg) no-repeat;
+	background: url(../img/about_us_main.png) no-repeat;
 	background-size: cover;
 	background-position: 20%;
 	min-height: 480px;
@@ -87,7 +87,27 @@ a {
 	color: white;	
 }
 
-/* articles */
+/* main page content */
+
+blockquote {
+	background: rgba(255, 255, 255, 0.6);
+	color: #633e83;
+	font-size: 24px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+	text-align: center;
+}
+
+.quote_author {
+	display: block;
+	text-align: right;
+	padding: 10px;
+	font-size: 20px;
+}
+
+/* cleaning */
 
 .article_content {
 	display: flex;
@@ -128,24 +148,6 @@ a {
 	text-align: center;
 }
 
-blockquote {
-	background: rgba(255, 255, 255, 0.6);
-	color: #633e83;
-	font-size: 24px;
-	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	font-style: italic;
-	text-align: center;
-}
-
-.quote_author {
-	display: block;
-	text-align: right;
-	padding: 10px;
-	font-size: 20px;
-}
-
 .overlay_container {
 	display: flex;
 	position: relative;
@@ -181,7 +183,7 @@ blockquote {
 }
 
 address {
-	font-size: 26px;
+	font-size: 30px;
 	font-weight: 700;
 }
 
@@ -404,14 +406,14 @@ div.img_in_love {
 }
 
 
-/* for desktop: */
+/* ---------------------------------------- for desktop: ---------------------------------------- */
 
 @media only screen and (min-width: 800px) {
 	.no_desktop {
 		display: none;
 	}
 	
-/* main part for desktop */
+	/* main part for desktop */
 	
 	.header_main_page {
 		background-image: none;
@@ -493,7 +495,7 @@ div.img_in_love {
 		font-weight: bold;
 	}
 	
-	.aside_quote_under_header {
+	.aside_quote {
 		background-color: #4a8b44;
 		min-height: 400px;
 		width: 750px;
@@ -524,7 +526,7 @@ div.img_in_love {
 		margin-top: -290px;
 	}
 		
-/* articles on index for desktop*/
+	/* articles on main page for desktop*/
 
 	.article_content {
 		padding-top: 80px;
@@ -608,10 +610,13 @@ div.img_in_love {
 		margin: 15px 5px 25px 5px;
 	}
 	
-/* details pages for desktop */
+	.back_to_menu {
+	font-size: 38px;
+	}
+	
+	/* details pages for desktop */
 	
 	.header_details_page {
-		/* background: rgba(131, 64, 135, .5); */
 		background: rgba(74, 139, 68, 0.5);
 		width: 100%;
 		min-height: 80px;
@@ -638,20 +643,17 @@ div.img_in_love {
 		color: #ffffff;
 		background: rgba(131, 64, 135, .6);
 		padding: 5px;
-}
+	}
 
-li.nav_option_details_page:nth-child(2) {
-	margin-left: 360px;
-}
+	li.nav_option_details_page:nth-child(2) {
+		margin-left: 360px;
+	}
 
-li.nav_option_details_page:hover {
-	background: rgba(255, 255, 255, 0.6);
-	color: #633e83;
-}
+	li.nav_option_details_page:hover {
+		background: rgba(255, 255, 255, 0.6);
+		color: #633e83;
+	}
 
-
-	
-	
 	.article_details_title {
 		padding-top: 80px;
 		width: 800px;
@@ -728,7 +730,6 @@ li.nav_option_details_page:hover {
 	.article_in_memory_title {
 		padding-top: 80px;
 	}
-	
 }
 
 

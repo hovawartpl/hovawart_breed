@@ -23,6 +23,7 @@ ol, ul {
 a {
 	color:#ffffff;
 	text-decoration: none;
+	display: block;
 }
 
 /* ----------------------------------------  for mobile phones: ---------------------------------------- */
@@ -59,6 +60,10 @@ a {
 .nav_main_page {
 	display: flex;
 	margin-left: 10px;
+}
+
+.nav_menu_option > a {
+	display: inline;
 }
 
 .nav_menu_option {
@@ -346,7 +351,7 @@ div.img_in_memory {
 
 .photo_at_the_end {
 	max-width: 400px;
-	hight: auto;
+	height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -427,7 +432,7 @@ div.img_in_love {
 	}
 	
 	.content_container {
-		max-width: 800px;
+		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -521,7 +526,7 @@ div.img_in_love {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 800px;
+		width: 800px;
 		height: auto;
 		margin-top: -290px;
 	}
@@ -548,7 +553,7 @@ div.img_in_love {
 	
 	.polaroid_menu {
 		display: flex;
-		max-width: 800px;
+		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -575,7 +580,7 @@ div.img_in_love {
 		padding: 10px 20px;
 	}
 	
-	.polaroid_4:hover, .polaroid_2:hover, .polaroid_3:hover, .polaroid_double:hover, .polaroid_tripple:hover {
+	.polaroid_4:hover, .polaroid_2:hover, .polaroid_3:hover {
 		background: rgba(131, 64, 135, .6);
 	}
 	
@@ -627,10 +632,10 @@ div.img_in_love {
 	}
 	
 	.nav_details_page {
-	min-height: 40px;
-	position: relative;
-	background: inherit;
-	margin-top: 20px;
+		min-height: 40px;
+		position: relative;
+		background: inherit;
+		margin-top: 20px;
 	}
 
 	li.nav_option_details_page {
@@ -701,9 +706,18 @@ div.img_in_love {
 		margin-right: auto;
 	}
 	
+	div.polaroid_one {
+		background: rgba(131, 64, 135, .6);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px 5px 25px 5px;
+		display: flex;
+		flex-wrap: wrap;
+		width: 255px;
+	}
+	
 	div.polaroid_double {
 		width: 510px;
-		background-color: #4a8b44;
+		background: rgba(131, 64, 135, .6);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 5px 25px 5px;
 	}
@@ -716,7 +730,7 @@ div.img_in_love {
 
 	div.polaroid_tripple {
 		width: 765px;
-		background-color: #4a8b44;
+		background: rgba(131, 64, 135, .6);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 5px 25px 5px;
 	}
@@ -732,7 +746,7 @@ div.img_in_love {
 	}
 }
 
-
+/* http://jigsaw.w3.org/css-validator/check/referer ="Poprawny CSS!" */
 
 
 

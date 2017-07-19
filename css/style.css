@@ -10,7 +10,7 @@ body {
 	font-size: 21px;
 }
 
-.page_container {
+#page_container {
 	overflow-x: hidden;
 }
 
@@ -111,8 +111,6 @@ blockquote {
 	padding: 10px;
 	font-size: 20px;
 }
-
-/* cleaning */
 
 .article_content {
 	display: flex;
@@ -616,7 +614,7 @@ div.img_in_love {
 	}
 	
 	.back_to_menu {
-	font-size: 38px;
+		font-size: 38px;
 	}
 	
 	/* details pages for desktop */

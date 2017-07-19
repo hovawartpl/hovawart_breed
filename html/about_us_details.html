@@ -18,12 +18,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&amp;subset=latin-ext" rel="stylesheet"> 
 	<link href="../fontello/css/fontello.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../js/scroll.js"></script>
 
 </head>
 
 <body>
 
-	<div class="page_container">
+	<div id="page_container">
 	
 <!-- navigation on details page -->
 
@@ -41,16 +44,16 @@
 					<a href="../index.html#about_us">O NAS</a>	
 					<ul class="nav_dropdown_menu">
 						<li>
-							<a href="about_us_details.html#iula_about">IULA</a>
+							<a href="about_us_details.html#iula_about" class="scroll">IULA</a>
 						</li>
 						<li>
-							<a href="about_us_details.html#ziri_about">ZIRI</a>
+							<a href="about_us_details.html#ziri_about" class="scroll">ZIRI</a>
 						</li>
 						<li>
-							<a href="about_us_details.html#samosia_about">SAMOSIA</a>
+							<a href="about_us_details.html#samosia_about" class="scroll">SAMOSIA</a>
 						</li>
 						<li>
-							<a href="about_us_details.html#in_memory_about">na zawsze w pamięci</a>
+							<a href="about_us_details.html#in_memory_about" class="scroll">na zawsze w pamięci</a>
 						</li>
 					</ul>
 				</li>
@@ -311,7 +314,7 @@
 	</aside>
 	
 	<div class="back_to_menu">
-		<a href="#" class="tilelink">
+		<a href="#page_container" class="tilelink scroll">
 			<div class="up">
 				<i class="icon-up-circle"></i>
 			</div>

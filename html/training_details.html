@@ -17,11 +17,14 @@
 	<link href="../fontello/css/fontello.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../js/scroll.js"></script>
+	
 </head>
 
 <body>
 
-	<div class="page_container">
+	<div id="page_container">
 
 	<header class="header_details_page">
 		
@@ -66,13 +69,13 @@
 						<a href="../index.html#training">SZKOLENIE</a>
 						<ul class="nav_dropdown_menu">
 							<li>
-								<a href="training_details.html#iula_training">IULA</a>
+								<a href="training_details.html#iula_training" class="scroll">IULA</a>
 							</li>
 							<li>
-								<a href="training_details.html#ziri_training">ZIRI</a>
+								<a href="training_details.html#ziri_training" class="scroll">ZIRI</a>
 							</li>
 							<li>
-								<a href="training_details.html#archive_training">archiwum</a>
+								<a href="training_details.html#archive_training" class="scroll">archiwum</a>
 							</li>
 						</ul>
 					</li>
@@ -272,7 +275,7 @@
 	</aside>
 	
 	<div class="back_to_menu">
-		<a href="#" class="tilelink">
+		<a href="#page_container" class="tilelink scroll">
 			<div class="up">
 				<i class="icon-up-circle"></i>
 			</div>

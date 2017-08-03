@@ -215,6 +215,10 @@ address {
 	margin-top: 5px;
 }
 
+#signature a {
+	display: inline;
+}
+
 .back_to_menu {
 	position: fixed;
 	left: 5px;

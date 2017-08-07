@@ -19,7 +19,6 @@
 	<link href="css/style.css" rel="stylesheet">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="js/scroll.js"></script>
 	
 </head>
 
@@ -31,80 +30,50 @@
 	
 	<header class="header_main_page">
 		
-		<div class="content_container">
-			<a href="#page_container" class="scroll"><h1 class="logo_name">LAS KSIĘŻNICZEK</h1></a>
-
-			<nav class="nav_main_page">	
+		<div class="content_container relative_container">
 		
-				<ol>
-					<li class="nav_menu_option">
+			<nav>
+			
+				<a href="#page_container" class="nav_burger scroll"><i class="icon-menu"></i><h1 class="logo_name">LAS KSIĘŻNICZEK</h1></a>
+				
+				<ul class="nav_dropdown_menu">
+					<li>
 						<a href="#about_us" class="scroll">O NAS</a>
-						
-						<ul class="nav_dropdown_menu">
-							<li>
-								<a href="html/about_us_details.html#iula_about">IULA</a>
-							</li>
-							<li>
-								<a href="html/about_us_details.html#ziri_about">ZIRI</a>
-							</li>
-							<li>
-								<a href="html/about_us_details.html#samosia_about">SAMOSIA</a>
-							</li>
-							<li>
-								<a href="html/about_us_details.html#in_memory_about">na zawsze w pamięci</a>
-							</li>
-						</ul>
-						
 					</li>
-					<li class="nav_menu_option">
+					<li>
 						<a href="#puppies" class="scroll">SZCZENIĘTA</a>
-						
-						<ul class="nav_dropdown_menu">
-							<li>
-								<a href="html/puppies_details.html#new_puppies">aktualności</a>
-							</li>
-							<li>
-								<a href="html/puppies_details.html#archives_puppies">archiwum</a>
-							</li>
-						</ul>
-						
 					</li>
-					<li class="nav_menu_option">
+					<li>
 						<a href="#training" class="scroll">SZKOLENIE</a>
-						
-						<ul class="nav_dropdown_menu">
-							<li>
-								<a href="html/training_details.html#iula_training">IULA</a>
-							</li>
-							<li>
-								<a href="html/training_details.html#ziri_training">ZIRI</a>
-							</li>
-							<li>
-								<a href="html/training_details.html#archive_training">archiwum</a>
-							</li>
-						</ul>
-						
 					</li>
-					<li class="nav_menu_option">
+					<li>
 						<a href="#shows" class="scroll">WYSTAWY</a>
-						
-						<ul class="nav_dropdown_menu">
-							<li>
-								<a href="html/shows_details.html#iula_shows">IULA</a>
-							</li>
-							<li>
-								<a href="html/shows_details.html#ziri_shows">ZIRI</a>
-							</li>
-							<li>
-								<a href="html/shows_details.html#archive_shows">archiwum</a>
-							</li>
-						</ul>
-						
 					</li>
-					<li class="nav_menu_option">
+					<li>
 						<a href="#contact" class="scroll">KONTAKT</a>
 					</li>
-				</ol>
+				</ul>
+
+				<div class="nav_main_page no_mobile">
+			
+					<ol>
+						<li class="nav_menu_option">
+							<a href="html/about_us_details.html">ZIRI</a>
+						</li>
+						<li class="nav_menu_option">
+							<a href="html/training_details.html" class="scroll">IULA</a>
+						</li>
+						<li class="nav_menu_option">
+							<a href="html/shows_details.html">SAMOSIA</a>	
+						</li>
+						<li class="nav_menu_option">
+							<a href="html/puppies_details.html">SZCZENIĘTA</a>
+						</li>
+						<li class="nav_menu_option">
+							<a href="#contact" class="scroll">KONTAKT</a>
+						</li>
+					</ol>
+				</div>
 			</nav>
 		</div>
 		
@@ -469,10 +438,17 @@
 		</a>	
 		
 		<div id="signature">
-			2017 "Las Księżniczek"&copy; &nbsp;·&nbsp; Site by <a href="https://www.linkedin.com/in/marta-mucha-balcerek-99012113b/" target="_blank">Marta Mucha-Balcerek</a>
+			2017 "Las Księżniczek"&copy; &nbsp;·&nbsp; wykonanie strony: <a href="https://www.linkedin.com/in/marta-mucha-balcerek-99012113b/" target="_blank">Marta Mucha-Balcerek</a>
+			&nbsp;·&nbsp; podziękowania za zdjęcia: <a href="http://hovki.pl/" target="_blank">Maciej Załuski</a> oraz <a href="http://kasiagodlewska.pl/" target="_blank">Kasia Godlewska</a>
 		</div>
 	</footer>
 	
 </div>
+
+<!-- scripts -->
+
+<script src="js/scroll.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 </html>

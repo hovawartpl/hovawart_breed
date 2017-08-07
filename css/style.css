@@ -236,7 +236,7 @@ address {
 
 /* details pages */
 
-/* about us page */
+/* ziri page */
 
 /* navigation for details pages */
 
@@ -269,31 +269,6 @@ address {
 	border-right: 0;
 }
 
-.nav_details_page_local {
-	clear: both;
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	top: 32px;
-	z-index: 1;
-	background: rgba(74,139,68, .6);
-}
-
-.nav_option_details_page_local {
-	display: inline;
-	float: left;
-	text-align: center;
-	font-size: 21px;
-	color: #ffffff;
-	padding: 2px;
-	margin-left: auto;
-	margin-right: auto;
-	border-right: 0.5px dashed rgb(74,139,68);
-}
-
 .active_menu_option {
 	color: #ffffff; 
 	background: rgba(74,139,68, .6);	
@@ -305,6 +280,14 @@ address {
 }
 
 /* main content details */
+
+.article_content {
+	padding-top: 60px;
+}
+
+.article_content_top {
+	padding-top: 10px;
+}
 
 .article_details_title {
 	padding-top: 64px;
@@ -319,6 +302,7 @@ address {
 	border-radius: 50%;
 	display: inline-block;
 	float: left;
+	margin: 12px;
 }
 
 .article_details_title > h2 {
@@ -568,7 +552,7 @@ div.img_in_love {
 	/* articles on main page for desktop*/
 
 	.article_content {
-		padding-top: 80px;
+		padding-top: 90px;
 	}
 	
 	main {
@@ -649,6 +633,10 @@ div.img_in_love {
 		margin: 15px 5px 25px 5px;
 	}
 	
+	.polaroid_no_hover:hover {
+		background-color: #4a8b44;
+	}
+	
 	.back_to_menu {
 		font-size: 38px;
 	}
@@ -667,7 +655,6 @@ div.img_in_love {
 	
 	.nav_details_page {
 		min-height: 40px;
-		position: relative;
 		background: inherit;
 		margin-top: 20px;
 	}
@@ -675,7 +662,6 @@ div.img_in_love {
 	li.nav_option_details_page {
 		display: inline;
 		margin: 0px 5px 0px 2.5px;
-		position: relative;
 		font-size: 24px;
 		border: 0px;
 		border-radius: 5px;
@@ -685,7 +671,7 @@ div.img_in_love {
 	}
 
 	li.nav_option_details_page:nth-child(2) {
-		margin-left: 360px;
+		margin-left: 28%;
 	}
 
 	li.nav_option_details_page:hover {
@@ -696,6 +682,12 @@ div.img_in_love {
 	.article_details_title {
 		padding-top: 80px;
 		width: 800px;
+	}
+	
+	.article_h2_title {
+		font-size: 42px;
+		color: #ffffff;
+		font-weight: bold;
 	}
 
 	.photo_about_big {
@@ -715,7 +707,7 @@ div.img_in_love {
 		margin-left: auto;
 		margin-right: auto;
 		float: right;
-		padding: 80px 5px 5px 5px;
+		padding: 60px 5px 5px 5px;
 	}
 	
 	.article_news_puppies_title {

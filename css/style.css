@@ -236,8 +236,6 @@ address {
 
 /* details pages */
 
-/* ziri page */
-
 /* navigation for details pages */
 
 .nav_details_page {
@@ -307,6 +305,7 @@ address {
 
 .article_details_title > h2 {
 	display: inline-block;
+	font-size: 28px;
 	float: left;
 	padding: 65px 5px 5px 5px;
 }
@@ -684,7 +683,7 @@ div.img_in_love {
 		width: 800px;
 	}
 	
-	.article_h2_title {
+	h2.article_h2_title {
 		font-size: 42px;
 		color: #ffffff;
 		font-weight: bold;
@@ -759,6 +758,10 @@ div.img_in_love {
 		background: rgba(131, 64, 135, .6);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 5px 25px 5px;
+	}
+	
+	.polaroid_container a {
+		display: inline;
 	}
 	
 	.puppies_archive_litter_name {

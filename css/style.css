@@ -576,6 +576,7 @@ div.img_in_love {
 	
 	.polaroid_menu {
 		display: flex;
+		flex-wrap: wrap;
 		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
@@ -767,10 +768,6 @@ div.img_in_love {
 		margin: 15px auto 25px auto;
 	}
 	
-	.polaroid_container a {
-		display: inline;
-	}
-	
 	.puppies_archive_litter_name {
 		font-weight: bold;
 		font-size: 26px;
@@ -779,6 +776,10 @@ div.img_in_love {
 	
 	.article_in_memory_title {
 		padding-top: 80px;
+	}
+	
+	article.no_mobile {
+		display: block;
 	}
 }
 

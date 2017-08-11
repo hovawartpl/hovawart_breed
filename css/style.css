@@ -30,6 +30,26 @@ a {
 	position: relative;
 }
 
+.bold {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.white_text {
+	color: #ffffff;
+}
+
+.clear {
+	clear: both;
+}
+
+.a_inline_normal {
+	display: inline;
+	font-weight: inherit;
+	font-size: inherit;
+	text-decoration: none;
+}
+
 /* ----------------------------------------  for mobile phones: ---------------------------------------- */
 
 .no_mobile {
@@ -42,59 +62,50 @@ a {
 	background-color: #4a8b44;
 	background: url(../img/about_us_main.png) no-repeat;
 	background-size: cover;
-	background-position: 20%;
+	background-position: 28%;
 	min-height: 480px;
 	max-height:100%;
 	max-width: 100%;
-	margin-top: 0px;
-	padding-top: 0px;
 }
+/* ok */
 
 .logo_name {
 	font-size: 40px;
 	font-weight: bold;
-	margin-top: 0px;
 	padding: 8px 16px 8px 16px;
 	background: rgba(255, 255, 255, 0.6);
 	color: #633e83;
 	width: 100%;
 	text-align: right;
 }
+/* ok */
 
 .icon-menu {
 	float: left;
 	padding: 16px;
 	color: #633e83;
 }
+/*ok*/
 
 .nav_dropdown_menu {
 	float: none;
-	padding: 0px;
-	margin: 0px;
 	position: absolute;
 	top: 66px;
 	left: 0;
 	text-align: left;
 	width: 110px;
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(99,62,131, 0.6);
 	display: none;
 }
+/*ok*/
 	
 .nav_dropdown_menu > li {
 	display: block;
-	position: relative;
 	margin: 2.5px 0px 5px 22px;
 	padding: 2px;
 	font-size: 22px;
-	height: auto;
-	width: 80px;
 }
-
-#logo {
-	font-weight: 700;
-	font-size: 36px;
-	color: white;	
-}
+/*ok*/
 
 /* main page content */
 
@@ -108,6 +119,7 @@ blockquote {
 	font-style: italic;
 	text-align: center;
 }
+/*ok*/
 
 .quote_author {
 	display: block;
@@ -115,26 +127,30 @@ blockquote {
 	padding: 10px;
 	font-size: 20px;
 }
+/*ok*/
 
 .article_content {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
 	text-align: justify;
-	line-height: 130%;
+	line-height: 136%;
 }
+/*ok*/
 
 .article_light_blue {
 	background-color: #446d87;
 	color: #dedede;
 	padding: 20px;
 }
+/*ok*/
 
 .article_dark_blue {
 	background-color: #424787;
 	color: #dedede;
 	padding: 20px;
 }
+/*ok*/
 
 .article_menu {
 	display: flex;
@@ -143,6 +159,7 @@ blockquote {
 	margin-left: auto;
 	margin-right: auto;
 }
+/*ok*/
 
 .article_menu > li {
 	margin: 3px;
@@ -154,28 +171,31 @@ blockquote {
 	min-width: 80px;
 	text-align: center;
 }
+/*ok*/
 
 .overlay_container {
 	display: flex;
 	position: relative;
 	width: 100%;
 }
+/*ok*/
 
 .img_mobile {
 	display: block;
-	max-width: 380px;
+	width: 380px;
 	margin-left: auto;
 	margin-right: auto;
 }
+/*ok*/
 
 .overlay {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 55px;
 	background: rgba(255, 255, 255, 0.6);
 }
+/*ok*/
 
 .title_over_picture {
 	color: #633e83;
@@ -184,6 +204,7 @@ blockquote {
 	padding: 10px;
 	text-align: center;
 }
+/*ok*/
 
 .contact {
 	text-align: center;
@@ -288,7 +309,7 @@ address {
 }
 
 .article_details_title {
-	padding-top: 64px;
+	padding-top: 40px;
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -307,17 +328,18 @@ address {
 	display: inline-block;
 	font-size: 28px;
 	float: left;
-	padding: 65px 5px 5px 5px;
+	padding: 40px 5px 5px 5px;
 }
 
-.article_in_memory_title {
-	text-align: center;
-	padding: 65px 5px 5px 5px;
+h2.article_in_memory_title {
+	color: #ffffff;
+	font-size: 36px;
+	padding-left: 20px;
 }
 
 div.img_in_memory {
 	width: 45%;
-	min-height: 200px;
+	height: 580px;
 	display: inline-block;
 	float: left;
 	margin-left: 2.5%;
@@ -334,11 +356,13 @@ div.img_in_memory {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 }
 
 .description_img_in_memory {
 	text-align: center;
 	vertical-align: middle;
+	color: #ffffff;
 	padding: 10px 10px;
 }
 
@@ -353,8 +377,9 @@ div.img_in_memory {
 /* puppies page */
 
 .article_news_puppies_title {
-	display: block;
 	text-align: center;
+	color: #ffffff;
+	font-size: 36px;
 }
 
 div.img_in_love {
@@ -390,25 +415,7 @@ div.img_in_love {
 
 /* more styles */
 
-.bold {
-	font-weight: bold;
-	font-size: 22px;
-}
 
-.white_text {
-	color: #ffffff;
-}
-
-.clear {
-	clear: both;
-}
-
-.a_inline_normal {
-	display: inline;
-	font-weight: inherit;
-	font-size: inherit;
-	text-decoration: none;
-}
 
 /* ---------------------------------------- for desktop: ---------------------------------------- */
 
@@ -435,6 +442,7 @@ div.img_in_love {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	/* ok */
 	
 	.logo_name {
 		background: inherit;
@@ -466,15 +474,18 @@ div.img_in_love {
 		margin: 0px 5px 0px 2.5px;
 		font-size: 24px;
 	}
+	/* ok */
 	
 	li.nav_menu_option:hover {
 		background: rgba(255, 255, 255, 0.6);
 		color: #633e83;
 	}
+	/* ok */
 	
 	.nav_menu_option > a {
 		display: inline;
 	}
+	/* ok */
 	
 	.icon-menu {
 		color: #ffffff;
@@ -553,12 +564,14 @@ div.img_in_love {
 		height: auto;
 		margin-top: -290px;
 	}
+	/*ok*/
 		
 	/* articles on main page for desktop*/
 
 	.article_content {
 		padding-top: 90px;
 	}
+	/*ok*/
 	
 	main {
 		margin-top: 60px;
@@ -566,13 +579,12 @@ div.img_in_love {
 	
 	.article_title {
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
 		color: #ffffff;
 		font-size: 30px;
 		font-weight: bold;
-		padding: 15px;
+		padding: 15px 5px 25px 5px;
 	}
+	/*ok*/
 	
 	.polaroid_menu {
 		display: flex;
@@ -581,6 +593,7 @@ div.img_in_love {
 		margin-right: auto;
 		text-align: center;
 	}
+	/*ok*/
 	
 	.img_polaroid_4 {
 		display: block;
@@ -588,6 +601,7 @@ div.img_in_love {
 		height: 180px;
 		margin: 5px auto 5px auto;
 	}
+	/*ok*/
 	
 	div.polaroid_4 {
 		display: flex;
@@ -595,19 +609,21 @@ div.img_in_love {
 		width: 190px;
 		background-color: #4a8b44;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		margin: 15px 2.5px 25px 2.5px;
-		
+		margin: 15px 2.5px 25px 2.5px;	
 	}
+	/*ok*/
 
 	div.polaroid_container {
 		width: 100%;
 		text-align: center;
-		padding: 10px 20px;
+		padding: 20px;
 	}
+	/*ok*/
 	
 	.polaroid_4:hover, .polaroid_2:hover, .polaroid_3:hover {
 		background: rgba(131, 64, 135, .6);
 	}
+	/*ok*/
 	
 	.img_polaroid_2 {
 		display: block;
@@ -746,10 +762,22 @@ div.img_in_love {
 		display: flex;
 		flex-wrap: wrap;
 		width: 255px;
+		height: 400px;
+	}
+	
+	div.polaroid_one_archive {
+		background: rgba(131, 64, 135, .6);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px auto 25px auto;
+		display: flex;
+		flex-wrap: wrap;
+		width: 255px;
+		height: 600px;
 	}
 	
 	div.polaroid_double {
 		width: 510px;
+		height: 400px;
 		background: rgba(131, 64, 135, .6);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px auto 25px auto;
@@ -763,6 +791,7 @@ div.img_in_love {
 
 	div.polaroid_tripple {
 		width: 765px;
+		height: 340px;
 		background: rgba(131, 64, 135, .6);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px auto 25px auto;

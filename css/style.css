@@ -67,7 +67,6 @@ a {
 	max-height:100%;
 	max-width: 100%;
 }
-/* ok */
 
 .logo_name {
 	font-size: 40px;
@@ -78,14 +77,12 @@ a {
 	width: 100%;
 	text-align: right;
 }
-/* ok */
 
 .icon-menu {
 	float: left;
 	padding: 16px;
 	color: #633e83;
 }
-/*ok*/
 
 .nav_dropdown_menu {
 	float: none;
@@ -97,7 +94,6 @@ a {
 	background: rgba(99,62,131, 0.6);
 	display: none;
 }
-/*ok*/
 	
 .nav_dropdown_menu > li {
 	display: block;
@@ -105,7 +101,6 @@ a {
 	padding: 2px;
 	font-size: 22px;
 }
-/*ok*/
 
 /* main page content */
 
@@ -119,7 +114,6 @@ blockquote {
 	font-style: italic;
 	text-align: center;
 }
-/*ok*/
 
 .quote_author {
 	display: block;
@@ -127,7 +121,6 @@ blockquote {
 	padding: 10px;
 	font-size: 20px;
 }
-/*ok*/
 
 .article_content {
 	display: flex;
@@ -136,21 +129,18 @@ blockquote {
 	text-align: justify;
 	line-height: 136%;
 }
-/*ok*/
 
 .article_light_blue {
 	background-color: #446d87;
 	color: #dedede;
 	padding: 20px;
 }
-/*ok*/
 
 .article_dark_blue {
 	background-color: #424787;
 	color: #dedede;
 	padding: 20px;
 }
-/*ok*/
 
 .article_menu {
 	display: flex;
@@ -159,7 +149,6 @@ blockquote {
 	margin-left: auto;
 	margin-right: auto;
 }
-/*ok*/
 
 .article_menu > li {
 	margin: 3px;
@@ -171,14 +160,12 @@ blockquote {
 	min-width: 80px;
 	text-align: center;
 }
-/*ok*/
 
 .overlay_container {
 	display: flex;
 	position: relative;
 	width: 100%;
 }
-/*ok*/
 
 .img_mobile {
 	display: block;
@@ -186,7 +173,6 @@ blockquote {
 	margin-left: auto;
 	margin-right: auto;
 }
-/*ok*/
 
 .overlay {
 	position: absolute;
@@ -195,7 +181,6 @@ blockquote {
 	width: 100%;
 	background: rgba(255, 255, 255, 0.6);
 }
-/*ok*/
 
 .title_over_picture {
 	color: #633e83;
@@ -204,9 +189,8 @@ blockquote {
 	padding: 10px;
 	text-align: center;
 }
-/*ok*/
 
-.contact {
+.contact_class {
 	text-align: center;
 }
 
@@ -215,12 +199,13 @@ address {
 	font-weight: 700;
 }
 
-.footer_nav_bar
-{
+.footer_nav_bar {
 	width: 100%;
 	margin-bottom: 0px;
 	background-color: #4a8b44;
 	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 .tilelink {
@@ -263,7 +248,7 @@ address {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	min-height: 32px;
+	min-height: 38px;
 	margin: 0;
 	padding: 0;
 	position: fixed;
@@ -276,7 +261,7 @@ address {
 	display: inline;
 	float: left;
 	text-align: center;
-	font-size: 20px;
+	font-size: 22px;
 	color: #ffffff;
 	padding: 2px;
 	margin-left: auto;
@@ -324,7 +309,7 @@ address {
 	margin: 12px;
 }
 
-.article_details_title > h2 {
+.article_h2_title {
 	display: inline-block;
 	font-size: 28px;
 	float: left;
@@ -374,7 +359,7 @@ div.img_in_memory {
 	margin-right: auto;
 }
 
-/* puppies page */
+/* deatails page articles */
 
 .article_news_puppies_title {
 	text-align: center;
@@ -404,6 +389,7 @@ div.img_in_love {
 	font-weight: bold;
 	padding: 8px;
 	text-align: left;
+	margin-top: 10px;
 }
 
 .list_for_archive > dd {
@@ -411,20 +397,15 @@ div.img_in_love {
 	padding: 8px;
 }
 
-/* training, shows - nothing added */
-
-/* more styles */
-
-
 
 /* ---------------------------------------- for desktop: ---------------------------------------- */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 860px) {
 	.no_desktop {
 		display: none;
 	}
 	
-	/* main part for desktop */
+	/* navigation on main page */
 	
 	.header_main_page {
 		background-image: none;
@@ -442,7 +423,6 @@ div.img_in_love {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	/* ok */
 	
 	.logo_name {
 		background: inherit;
@@ -474,18 +454,15 @@ div.img_in_love {
 		margin: 0px 5px 0px 2.5px;
 		font-size: 24px;
 	}
-	/* ok */
 	
 	li.nav_menu_option:hover {
 		background: rgba(255, 255, 255, 0.6);
 		color: #633e83;
 	}
-	/* ok */
 	
 	.nav_menu_option > a {
 		display: inline;
 	}
-	/* ok */
 	
 	.icon-menu {
 		color: #ffffff;
@@ -513,20 +490,10 @@ div.img_in_love {
 	.nav_dropdown_menu > li > a {
 		display: inline;
 	}
-
-	.nav_option_details_page:hover .nav_dropdown_menu {
-		display: block;
-		z-index: 1;
-	}
 	
 	.nav_dropdown_menu > li:hover {
 		background: rgba(255, 255, 255, 0.6);
 		color: #633e83;
-		border-radius: 5%;
-	}
-	
-	.article_menu > li:hover {
-		background: rgba(131, 64, 135, .9);
 		border-radius: 5%;
 	}
 	
@@ -540,20 +507,13 @@ div.img_in_love {
 		width: 750px;
 		margin-top: 100px;
 		margin-left: auto;
-		margin-right: auto;
-		
+		margin-right: auto;	
 	}
 	
 	blockquote {
 		background-color: #4a8b44;
 		color: #ffffff;
 		text-align: right;
-	}
-
-	.quote_author {
-		margin-left: auto;
-		margin-right: auto;
-		width: 750px;
 	}
 	
 	.img_big {
@@ -564,14 +524,12 @@ div.img_in_love {
 		height: auto;
 		margin-top: -290px;
 	}
-	/*ok*/
 		
 	/* articles on main page for desktop*/
 
 	.article_content {
 		padding-top: 90px;
 	}
-	/*ok*/
 	
 	main {
 		margin-top: 60px;
@@ -584,7 +542,6 @@ div.img_in_love {
 		font-weight: bold;
 		padding: 15px 5px 25px 5px;
 	}
-	/*ok*/
 	
 	.polaroid_menu {
 		display: flex;
@@ -593,7 +550,6 @@ div.img_in_love {
 		margin-right: auto;
 		text-align: center;
 	}
-	/*ok*/
 	
 	.img_polaroid_4 {
 		display: block;
@@ -601,29 +557,26 @@ div.img_in_love {
 		height: 180px;
 		margin: 5px auto 5px auto;
 	}
-	/*ok*/
 	
 	div.polaroid_4 {
 		display: flex;
 		flex-wrap: wrap;
 		width: 190px;
-		background-color: #4a8b44;
+		background: #4a8b44;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 2.5px 25px 2.5px;	
+		transition: background .3s linear;
 	}
-	/*ok*/
 
 	div.polaroid_container {
 		width: 100%;
 		text-align: center;
 		padding: 20px;
 	}
-	/*ok*/
 	
 	.polaroid_4:hover, .polaroid_2:hover, .polaroid_3:hover {
 		background: rgba(131, 64, 135, .6);
 	}
-	/*ok*/
 	
 	.img_polaroid_2 {
 		display: block;
@@ -636,9 +589,10 @@ div.img_in_love {
 		display: flex;
 		flex-wrap: wrap;
 		width: 370px;
-		background-color: #4a8b44;
+		background: #4a8b44;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 5px 25px 5px;
+		transition: background .3s linear;
 	}
 	
 	.img_polaroid_3 {
@@ -652,10 +606,12 @@ div.img_in_love {
 		display: flex;
 		flex-wrap: wrap;
 		width: 255px;
-		background-color: #4a8b44;
+		background: #4a8b44;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin: 15px 3px 25px 3px;
+		transition: background .3s linear;
 	}
+	
 	.polaroid_no_hover:hover {
 		background-color: #4a8b44;
 	}
@@ -681,7 +637,7 @@ div.img_in_love {
 		background: inherit;
 		margin-top: 20px;
 	}
-
+	
 	li.nav_option_details_page {
 		display: inline;
 		margin: 0px 5px 0px 2.5px;
@@ -701,16 +657,26 @@ div.img_in_love {
 		background: rgba(255, 255, 255, 0.6);
 		color: #633e83;
 	}
-
+	
+	.article_menu > li:hover {
+		background: rgba(131, 64, 135, .9);
+		border-radius: 5%;
+	}
+	
 	.article_details_title {
 		padding-top: 80px;
 		width: 800px;
 	}
 	
-	h2.article_h2_title {
+	h2.article_h2_title, h2.article_in_memory_title {
 		font-size: 42px;
 		color: #ffffff;
 		font-weight: bold;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: right;
+		padding: 60px 5px 5px 5px;
 	}
 
 	.photo_about_big {
@@ -723,14 +689,6 @@ div.img_in_love {
 		height: auto;
 		margin-top: -280px;
 		margin-bottom: 10px;
-	}
-
-    .article_details_title > h2 {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		float: right;
-		padding: 60px 5px 5px 5px;
 	}
 	
 	.article_news_puppies_title {
@@ -746,13 +704,6 @@ div.img_in_love {
 	
 	.img_question_mark {
 		height: 320px;
-	}
-	
-	.gallery_puppies_archive {
-		display: block;
-		max-width: 800px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 	
 	div.polaroid_one {
@@ -773,6 +724,10 @@ div.img_in_love {
 		flex-wrap: wrap;
 		width: 255px;
 		height: 600px;
+	}
+	
+	div.polaroid_one_archive a:hover {
+		text-decoration: underline;
 	}
 	
 	div.polaroid_double {

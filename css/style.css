@@ -139,6 +139,12 @@ blockquote {
     font-family: 'Amatic SC', cursive;
 }
 
+.content_container p {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    padding: 2px;
+}
+
 .article_light_blue {
 	background-color: rgba(68,109,135, .7);
 	color: #dedede;
@@ -155,8 +161,10 @@ blockquote {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 10px;
+    margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
+    font-family: 'Amatic SC', cursive;
 }
 
 .article_menu > li {
@@ -164,7 +172,7 @@ blockquote {
 	padding: 5px;
 	color: #ffffff;
 	background: rgba(131, 64, 135, .6);
-	font-size: 21px;
+	font-size: 24px;
 	border-radius: 5px;
 	min-width: 80px;
 	text-align: center;
@@ -271,6 +279,7 @@ address {
 	float: left;
 	text-align: center;
 	font-size: 22px;
+    font-family: 'Amatic SC', cursive;
 	color: #ffffff;
 	padding: 2px;
 	margin-left: auto;

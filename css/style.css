@@ -212,8 +212,18 @@ blockquote {
 }
 
 address {
-	font-size: 30px;
-	font-weight: 700;
+	font-size: 38px;
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 12px;
+    transition: background-color .3s linear;
+    display: block;
+    margin: 14px auto;
+}
+
+address:hover {
+    background-color: #446d87;
 }
 
 .footer_nav_bar {
@@ -794,6 +804,8 @@ div.img_in_love {
 }
 
 /* http://jigsaw.w3.org/css-validator/check/referer ="Poprawny CSS!" */
+
+
 
 
 

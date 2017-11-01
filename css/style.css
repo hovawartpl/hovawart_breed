@@ -389,6 +389,15 @@ div.img_in_memory {
 
 /* deatails page articles */
 
+h3.titles_dog {
+    margin-bottom: 6px;
+}
+
+h4.additional_titles_dog {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .article_news_puppies_title {
 	text-align: center;
 	color: #ffffff;

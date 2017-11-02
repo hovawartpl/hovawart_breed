@@ -357,6 +357,7 @@ div.img_in_memory {
 	float: left;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
+    margin-top: 20px;
 	background-color: #446d87;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom: 25px;
@@ -433,7 +434,6 @@ div.img_in_love {
 	background-color: #834087;
 	padding: 8px;
 }
-
 
 /* ---------------------------------------- for desktop: ---------------------------------------- */
 
@@ -586,6 +586,8 @@ div.img_in_love {
 	}
 	
 	.polaroid_menu {
+        width: 800px;
+        height: auto;
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: auto;
@@ -813,9 +815,3 @@ div.img_in_love {
 }
 
 /* http://jigsaw.w3.org/css-validator/check/referer ="Poprawny CSS!" */
-
-
-
-
-
-

@@ -233,6 +233,10 @@ address:hover {
 	text-align: center;
 	padding-top: 6px;
 	padding-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100px;
 }
 
 .tilelink {

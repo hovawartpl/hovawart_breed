@@ -50,6 +50,10 @@ a {
 	text-decoration: none;
 }
 
+.empty {
+    min-height: 30vh;
+}
+
 /* ----------------------------------------  for mobile phones: ---------------------------------------- */
 
 .no_mobile {

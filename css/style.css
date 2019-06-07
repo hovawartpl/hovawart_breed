@@ -54,6 +54,33 @@ a {
     min-height: 30vh;
 }
 
+/* --- new styles for all screen sizes --- */
+
+.puppies-announcment {
+    text-align: center;
+}
+
+.puppies-announcment-title {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.puppies-annoucment-parents {
+    font-weight: bold;
+}
+
+.puppies-announcment-description {
+    background: rgba(255, 255, 255, 0.6);
+	color: rgb(68,109,135);
+	font-size: 24px;
+	padding: 10px;
+    max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+	text-align: center;
+}
+
 /* ----------------------------------------  for mobile phones: ---------------------------------------- */
 
 .no_mobile {
